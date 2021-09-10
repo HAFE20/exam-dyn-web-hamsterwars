@@ -1,0 +1,12 @@
+{
+  "name": "hamsterwars",
+  "version": "1.0.0",
+  "description": "Specification for assignment Hamster Wars, including data, with a script for evaluating if a submission follows the spec.",
+  "main": "index.js",
+  "scripts": {
+    "test-frontend": "npx http-server ./evaluate/"
+  },
+  "keywords": ["express", "REST", "API"],
+  "author": "David Andersson",
+  "license": "ISC"
+}
