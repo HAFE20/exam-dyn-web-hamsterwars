@@ -10,6 +10,17 @@ Uppgiften är uppdelad i två delar: **backend** och **fullstack**. Del 1 handla
 1. Del 2 - frontend (länk kommer senare)
 
 
+### Hur börjar jag?
+1. Skapa ett nytt, tomt Node-projekt
+1. Installera Express och andra paket
+1. Klona detta repo till en annan mapp. Kopiera över filen `data.json` och mappen `hamsters/` till ditt projekt.
+
+
+### Test-skript
+Skriv `npm run test-frontend` för att starta en lokal webbserver. Öppna index.html i en webbläsare och följ instruktionerna på sidan för att testa.
+
+---
+
 ### Kursens huvudsakliga syfte
 Kursens syfte är att behandla grundläggande tekniker för backendutveckling för att skapa fullstack-lösningar där information kan lagras, hanteras och presenteras.
 
@@ -37,7 +48,3 @@ Kompetenser
 + Att planera och genomföra framtagandet av användar- och databasdrivna webbapplikationer
 + Att optimera och anpassa databaser utifrån projektbehov
 + Att använda agila arbetsmetoder för att genomföra programmeringsprojekt inom utsatta tidsramar
-
-
-### Test-skript
-Skriv `npm run test-frontend` för att starta en lokal webbserver. Öppna index.html i en webbläsare och skriv in URL till din server för att testa.
