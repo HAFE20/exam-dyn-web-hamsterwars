@@ -96,6 +96,8 @@ Resurser som är bra träning, men inte nödvändiga för högsta betyg.
 **Q:** Kan jag veta om jag är godkänd? <br>
 **A:** Ja, genom att redovisa på en lektion eller genom att köra test-skriptet på ditt API. Se [README.md](README.md).
 
+**Q:** Ska vi använda TypeScript? <br>
+**A:** TypeScript är valfritt att använda i backend-delen, men obligatoriskt i frontend.
 
 ---
 ## Bedömning
