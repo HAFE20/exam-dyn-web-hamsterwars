@@ -1,6 +1,5 @@
 [
    {
-      "id":1,
       "name":"Sixten",
       "age":1,
       "favFood":"ostbollar",
@@ -11,7 +10,6 @@
       "games":0
    },
    {
-      "id":2,
       "name":"Sven",
       "age":5,
       "favFood":"morot",
@@ -22,7 +20,6 @@
       "games":0
    },
    {
-      "id":3,
       "name":"Ayla",
       "age":2,
       "favFood":"majs",
@@ -33,7 +30,6 @@
       "games":0
    },
    {
-      "id":4,
       "name":"Aleena",
       "age":3,
       "favFood":"rädisor",
@@ -44,7 +40,6 @@
       "games":0
    },
    {
-      "id":5,
       "name":"Tuss",
       "age":1,
       "favFood":"ananas",
@@ -55,7 +50,6 @@
       "games":0
    },
    {
-      "id":6,
       "name":"Zigge",
       "age":5,
       "favFood":"ananas",
@@ -66,7 +60,6 @@
       "games":0
    },
    {
-      "id":7,
       "name":"Mårten",
       "age":4,
       "favFood":"sallad",
@@ -77,7 +70,6 @@
       "games":0
    },
    {
-      "id":8,
       "name":"Frippe",
       "age":6,
       "favFood":"sallad",
@@ -88,7 +80,6 @@
       "games":0
    },
    {
-      "id":9,
       "name":"Bengt",
       "age":5,
       "favFood":"rädisor",
@@ -99,7 +90,6 @@
       "games":0
    },
    {
-      "id":10,
       "name":"Lelaah",
       "age":5,
       "favFood":"sallad",
@@ -110,7 +100,6 @@
       "games":0
    },
    {
-      "id":11,
       "name":"Kaylee",
       "age":4,
       "favFood":"ananas",
@@ -121,7 +110,6 @@
       "games":0
    },
    {
-      "id":12,
       "name":"Gnuggis",
       "age":5,
       "favFood":"äpple",
@@ -132,7 +120,6 @@
       "games":0
    },
    {
-      "id":13,
       "name":"Mumsan",
       "age":5,
       "favFood":"cornflakes",
@@ -143,7 +130,6 @@
       "games":0
    },
    {
-      "id":14,
       "name":"Loppan",
       "age":3,
       "favFood":"gurka",
@@ -154,7 +140,6 @@
       "games":0
    },
    {
-      "id":15,
       "name":"Wheelie",
       "age":4,
       "favFood":"gurka",
@@ -165,7 +150,6 @@
       "games":0
    },
    {
-      "id":16,
       "name":"Einar",
       "age":4,
       "favFood":"majs",
@@ -176,7 +160,6 @@
       "games":0
    },
    {
-      "id":17,
       "name":"Poppy",
       "age":6,
       "favFood":"ruccula",
@@ -187,7 +170,6 @@
       "games":0
    },
    {
-      "id":18,
       "name":"Bella",
       "age":7,
       "favFood":"nötter",
@@ -198,7 +180,6 @@
       "games":0
    },
    {
-      "id":19,
       "name":"Lola",
       "age":1,
       "favFood":"rädisor",
@@ -209,7 +190,6 @@
       "games":0
    },
    {
-      "id":20,
       "name":"Coco",
       "age":2,
       "favFood":"sågspån",
@@ -220,7 +200,6 @@
       "games":0
    },
    {
-      "id":21,
       "name":"Ajax",
       "age":1,
       "favFood":"popcorn",
@@ -231,7 +210,6 @@
       "games":0
    },
    {
-      "id":22,
       "name":"Skutte",
       "age":1,
       "favFood":"gräs",
@@ -242,7 +220,6 @@
       "games":0
    },
    {
-      "id":23,
       "name":"Norris",
       "age":5,
       "favFood":"morot",
@@ -253,7 +230,6 @@
       "games":0
    },
    {
-      "id":24,
       "name":"Pilen",
       "age":4,
       "favFood":"sågspån",
@@ -264,7 +240,6 @@
       "games":0
    },
    {
-      "id":25,
       "name":"Snurre",
       "age":5,
       "favFood":"morot",
@@ -275,7 +250,6 @@
       "games":0
    },
    {
-      "id":26,
       "name":"Bubblan",
       "age":2,
       "favFood":"skorpor",
@@ -286,7 +260,6 @@
       "games":0
    },
    {
-      "id":27,
       "name":"Felix",
       "age":1,
       "favFood":"gräs",
@@ -297,7 +270,6 @@
       "games":0
    },
    {
-      "id":28,
       "name":"Bixie",
       "age":3,
       "favFood":"sallad",
@@ -308,7 +280,6 @@
       "games":0
    },
    {
-      "id":29,
       "name":"Caoz",
       "age":2,
       "favFood":"persilja",
@@ -319,7 +290,6 @@
       "games":0
    },
    {
-      "id":30,
       "name":"Cirkus",
       "age":3,
       "favFood":"rädisor",
@@ -330,7 +300,6 @@
       "games":0
    },
    {
-      "id":31,
       "name":"Majsan",
       "age":4,
       "favFood":"cornflakes",
@@ -341,7 +310,6 @@
       "games":0
    },
    {
-      "id":32,
       "name":"Spånet",
       "age":3,
       "favFood":"sallad",
@@ -352,7 +320,6 @@
       "games":0
    },
    {
-      "id":33,
       "name":"Techno",
       "age":6,
       "favFood":"ruccula",
@@ -363,7 +330,6 @@
       "games":0
    },
    {
-      "id":34,
       "name":"Ninjah",
       "age":7,
       "favFood":"ruccula",
@@ -374,7 +340,6 @@
       "games":0
    },
    {
-      "id":35,
       "name":"Alma",
       "age":5,
       "favFood":"ananas",
@@ -385,7 +350,6 @@
       "games":0
    },
    {
-      "id":36,
       "name":"Molly",
       "age":3,
       "favFood":"ananas",
@@ -396,7 +360,6 @@
       "games":0
    },
    {
-      "id":37,
       "name":"Smulan",
       "age":1,
       "favFood":"gräs",
@@ -407,7 +370,6 @@
       "games":0
    },
    {
-      "id":38,
       "name":"Nisse",
       "age":2,
       "favFood":"majs",
@@ -418,7 +380,6 @@
       "games":0
    },
    {
-      "id":39,
       "name":"Fluffy",
       "age":7,
       "favFood":"sallad",
@@ -429,7 +390,6 @@
       "games":0
    },
    {
-      "id":40,
       "name":"Dart",
       "age":3,
       "favFood":"morot",
