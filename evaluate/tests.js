@@ -111,6 +111,18 @@ export const tests = (addEvaluator, data, separator) => [
 		}
 	}),
 
+	addEvaluator({
+		...defaultEvaluator,
+		title: '/cutest',
+		resource: () => ('/cutest/'),
+		checkResponse: (statusCode, body, el) => {
+			let cuteScore = body.defeats ? (body.wins / body.defeats) : 0
+			return ev.status200(statusCode, el)
+				&& ev.isHamster(body, el)
+				&& data.hamsters.filter(h => (h.defeats ? (h.wins / h.defeats) : 0) === cuteScore).length > 0
+		}
+	}),
+
 
 	// separator - VG below
 	separator(),
