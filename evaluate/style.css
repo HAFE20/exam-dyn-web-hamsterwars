@@ -1,0 +1,36 @@
+:root {
+	--error-color: #F5B7B1;
+	--valid-color: #9FE2BF;
+	/* --error-color: #DE3163;
+	--valid-color: #9FE2BF; */
+}
+body {
+	margin: 0px;
+	padding: 0.8em;
+	font-size: 1.1em;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	margin: 0em 0em 0.5em 0em;
+}
+p {
+	margin: 0.5em 0em;
+}
+
+code {
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 1em;
+}
+.error-message {
+	font-style: italic;
+	color: #DE3163;
+}
+#submission input {
+	width: 32em;
+}
+.validate-error {
+	background-color: var(--error-color);
+}
+.validate-success {
+	background-color: var(--valid-color);
+}
