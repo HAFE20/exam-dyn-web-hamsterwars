@@ -50,7 +50,13 @@ Alla API-resurser ska returnera JSON eller en HTTP statuskod:
 | POST   | `/hamsters`     | Hamster-objekt (utan id) | Ett objekt med id för det nya objekt som skapats i databasen: `{ id: "123..." }` |
 | PUT    | `/hamsters/:id` | Ett objekt med ändringar: `{ wins: 10, games: 12 }`    | Bara statuskod. |
 | DELETE | `/hamsters/:id` | -    | Bara statuskod. |
-| GET    | `/cutest`       | -    | Objekt för den hamster som vunnit högst procent av sina matcher. |
+| GET    | `/hamsters/cutest` | -    | Array med objekt för de hamstrar som vunnit flest matcher. |
+
+Endpoint /hamsters/cutest är till för att ni ska kunna visa på appens startsida vilken hamster som är sötast. Vi räknar precis som man räknar målskillnad i sportens värld: vinster minus förluster. Det kan i teorin bli oavgjort ibland. Hur det ska visas för användaren, är ett problem som vi löser i frontend-delen av projektet. Exempel:
+* Snurre har vunnit tio matcher och förlorat en. `10 - 1 === 9`
+* Pelle har vunnit tre matcher och förlorat noll. `3 - 0 === 3`
+* Osvald har vunnit 20 matcher och förlorat 11. `20 - 11 === 9`
+* Snurre och Osvald har lika stor målskillnad, fler än alla andra; därför ska bådas hamster-objekt finnas i arrayen.
 
 ---
 #### VG-nivå

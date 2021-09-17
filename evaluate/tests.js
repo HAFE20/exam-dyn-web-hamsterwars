@@ -116,12 +116,12 @@ export const tests = (addEvaluator, data, separator) => [
 		title: '/hamsters/cutest',
 		resource: () => ('/hamsters/cutest/'),
 		checkResponse: (statusCode, body, el) => {
-			let max = data.hamsters.map(h => h.defeats ? h.wins/h.defeats : 0).reduce((acc, cur) => Math.max(acc, cur))
+			let max = data.hamsters.map(h => h.wins - h.defeats).reduce((acc, cur) => Math.max(acc, cur), -1000)
 			return ev.status200(statusCode, el)
 				&& ev.isArray(body)
 				&& ev.arrayHasData(body)
 				&& ev.isHamster(body[0], el)
-				&& data.hamsters.filter(h => (h.defeats ? (h.wins / h.defeats) : 0) === max).length === body.length
+				&& data.hamsters.filter(h => (h.wins - h.defeats) === max).length === body.length
 		}
 	}),
 
