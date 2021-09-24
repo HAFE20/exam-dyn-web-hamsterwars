@@ -105,6 +105,20 @@ Resurser som är bra träning, men inte nödvändiga för högsta betyg.
 **Q:** Ska vi använda TypeScript? <br>
 **A:** TypeScript är valfritt att använda i backend-delen, men obligatoriskt i frontend.
 
+**Q:** Allt i test-skriptet blir rött? <br>
+**A:** Kontrollera att du har installerat CORS middleware i Express. Test-skriptet måste ha det för att kunna köras.
+
+**Q:** Det fungerar i Insomnia (eller Postman), men inte i testskriptet? <br>
+**A:** Du har inte följt specifikationen. Läs igenom tabellen **Endpoint** igen.
+
+**Q:** Det fungerar på *localhost*,  men inte när jag pushat till *Heroku*? <br>
+**A:** Du måste skriva koden flexibel, så att den gör olika saker beroende på om den körs på localhost eller Heroku. Använd *environment variables* för **porten** och **Firestore-nyckeln**, om de finns.
+
+**Q:** Jag får felet "App crashed" på Heroku? <br>
+**A:** Titta i Herokus loggfiler. Alla fel och allt som du skriver ut med console.log kommer där.
+
+
+
 ---
 ## Bedömning
 Observera att du måste följa specifikationen *exakt*. Du *måste* använda de namn och statuskoder som står här.
