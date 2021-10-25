@@ -7,7 +7,7 @@ Webbplatsen är en spinoff på [Kittenwar](http://www.kittenwar.com), en hemsida
 Uppgiften är uppdelad i två delar: **backend** och **fullstack**. Del 1 handlar om att bygga ett API. Du ska i del 2 bygga en frontend till API:et med React. Båda delarna ska publiceras online på Heroku.
 
 1. [Del 1 - backend](backend.md)
-1. Del 2 - frontend (länk kommer senare)
+1. [Del 2 - frontend](frontend.md)
 
 
 ### Hur börjar jag?

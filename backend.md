@@ -1,7 +1,7 @@
 # HAMSTERWARS backend
 
 + Backend: REST API med Node.js, Express och Firestore
-+ Frontend: web app med React (länk kommer senare i kursen)
++ [Frontend](frontend.md): web app med React
 
 Bilder och JSON data som du behöver för uppgiften finns i detta repo.
 
