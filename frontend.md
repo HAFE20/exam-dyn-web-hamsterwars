@@ -23,7 +23,7 @@ Appen ska ha följande vyer. Med en vy menas att användaren ska kunna välja va
 |Tävla      |Visa två slumpade hamstrar. Låt användaren välja den sötaste. Visa resultatet och initiera nästa match. |
 |Galleri    |Visa alla hamstrar som finns i databasen. Från galleriet ska man även kunna lägga till nya hamstrar och ta bort gamla. |
 |Statistik (**VG**)  |Visa de 5 hamstrar som vunnit respektive förlorat mest. |
-|Historik (**VG**)  |Visa resultatet från de senaste matcherna. Ta bort resultat. |
+|Historik (**VG**)  |Visa resultatet från alla matcher. Ta bort resultat. |
 
 
 ##### Startsida
@@ -62,7 +62,7 @@ Förutom G-nivån ska man kunna välja en hamster, och se vilka den har besegrat
 Visa de 5 hamstrar som vunnit mest, och de 5 hamstrar som förlorat mest.
 
 ##### Historik
-Visa resultatet från de senaste matcherna: bild och namn för både vinnare och förlorare.
+Visa resultatet från *alla* matcher: bild och namn för både vinnare och förlorare.
 
 
 ---
@@ -77,6 +77,8 @@ Visa resultatet från de senaste matcherna: bild och namn för både vinnare och
 
 1. Klicka på en hamster i galleriet, för att se vilka andra hamstrar den har besegrat i tidigare matcher.
 <br>Backend-route: `GET /defeated/:hamsterId`
+
+1. Förbättra **Historik** så att den kan visa de 10 *senaste* matcherna i stället för *alla* matcher. Du behöver lägga till en timestamp i match-objekten för att kunna sortera matcherna efter tid. Firestore sparar inte ordningen.
 
 1. Ny sida, **Rivalitet**: användaren ska välja två hamstrar, och kunna se deras inbördes poängställning. Exempel: `Hanna 5 - Herkules 3`.
 <br>Backend-route: `GET /score/:challenger/:defender`
